@@ -13,3 +13,7 @@ function compMove() {
     }
     else {return "Scissors"}
 }
+function outcome(playerSelection, computerSelection) {
+    if (String.toLowerCase(playerSelection)) == (String.toLowerCase(computerSelection)) {return "Your weapons were too evenly matched. Tie."}
+    
+}
