@@ -15,9 +15,11 @@ function compMove() {
 }
 function playRound(playerSelection, computerSelection) {
     if (playerSelection == computerSelection) {return "It's a tie."};
-        else if (playerSelection == "Rock") && (computerSelection == "Scissors") ||
+        
+    if (playerSelection == "Rock") && (computerSelection == "Scissors") ||
         (playerSelection = "Paper") && (computerSelection = "Rock") ||
-        (playerSelection == "Scissors") && (computerSelection = "Paper")
-        return `You win; Your ${playerSelection} triumphed over the oppoment's ${computerSelection}`
+        (playerSelection == "Scissors") && (computerSelection = "Paper") {return `You win; Your ${playerSelection} triumphed over the oppoment's ${computerSelection}`};
+    else { return}
+    
 }
 computerSelection = compMove;
